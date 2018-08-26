@@ -15,6 +15,7 @@ namespace ConsoleApp2
             arrayList.Add(b);
             foreach(Student st in arrayList)
             {
+                Console.WriteLine("\n**********************Student Details ****************************\n");
                 Console.WriteLine(st);
             }
             Console.WriteLine();

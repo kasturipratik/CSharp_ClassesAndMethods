@@ -10,9 +10,11 @@ namespace ConsoleApp2
         private string name;
         private string address;
         private string phone;
+
         public Student() {
            
         }
+
 
         public Student(int id, string name, string address, string phone)
         {
@@ -26,10 +28,12 @@ namespace ConsoleApp2
         public string Name { get => name; set => name = value; }
         public string Address { get => address; set => address = value; }
         public string Phone { get => phone; set => phone = value; }
+        public int Id1 { get => id; set => id = value; }
 
         public override string ToString()
         {
             return "{ ID: " + id + " Name: " + name + " Address: " + address + " Phone: " + phone + " }";
         }
+
     }
 }
